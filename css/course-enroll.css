@@ -1,0 +1,332 @@
+label {
+  font-size: 1rem;
+}
+
+/* =========== course registration form ============ */
+.enroll-form {
+  position: relative;
+  overflow: hidden;
+  height: auto;
+  top: 7.1rem;
+  margin-bottom: 7.1rem;
+}
+
+.enroll-form_container {
+  text-align: center;
+  height: 100%;
+}
+
+.enroll-form_body {
+  position: relative;
+  height: 72vh;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 1rem;
+  background: linear-gradient(
+    100deg,
+    #2020207e,
+    #23232481,
+    #5a5a5a00,
+    #2928287a,
+    #1f1e1e77
+  );
+  margin: 4rem 0;
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
+
+/* ========= left side of enroll container ============== */
+.left_enroll {
+  background: rgb(127, 157, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(127, 157, 252, 1) 0%,
+    rgba(45, 220, 253, 1) 100%
+  );
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+/* ========= right side of enroll container ============== */
+.right_enroll {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 1rem;
+  text-align: start;
+}
+
+.right_enroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.right_enroll::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 10px;
+}
+
+.right_enroll::-webkit-scrollbar-track {
+  background: rgb(43, 42, 42);
+  border-radius: 10px;
+}
+
+.right_enroll::-webkit-scrollbar-corner {
+  background: black;
+}
+
+.right_enroll h5.form_title {
+  text-align: center;
+  background: rgb(127, 157, 252);
+  background: linear-gradient(
+    0deg,
+    rgba(127, 157, 252, 1) 0%,
+    rgba(45, 220, 253, 1) 100%
+  );
+  padding: 1rem 0.4rem;
+}
+
+.right_enroll h6 {
+  text-transform: capitalize;
+  margin-top: 1.4rem;
+  margin-left: 0.26rem;
+}
+
+.right_enroll .inputs_parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.right_enroll .inputs_parentR {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.right_enroll .inputs_parent .input_parent {
+  position: relative;
+}
+
+.right_enroll .inputs_parent .input_parent .down_arrow {
+  position: absolute;
+  right: 0.5rem;
+  top: 2.5rem;
+  color: rgb(173, 173, 173);
+}
+
+.right_enroll .inputs_parent .input_parent .error {
+  color: #ff0000;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.right_enroll .inputs_parent input,
+.right_enroll .inputs_parent select {
+  width: 100%;
+  font-size: 1rem;
+  color: var(--color-white);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  border: none;
+  outline: none;
+  background: #2929294d;
+  transition: var(--transition);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.right_enroll .inputs_parent select {
+  font-family: "Poppins", sans-serif;
+  color: rgb(146, 141, 141);
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.right_enroll .inputs_parent .input_parent label {
+  position: absolute;
+  left: 1rem;
+  top: 2.3rem;
+  display: block;
+  padding-right: 1.2rem;
+  width: auto;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgb(146, 141, 141);
+  pointer-events: none;
+  transition: 0.3s ease all;
+}
+
+.right_enroll .inputs_parent input:focus {
+  outline: 1px solid var(--color-primary);
+}
+
+.right_enroll .inputs_parent input:focus + label,
+.right_enroll .inputs_parent input:not(:placeholder-shown) + label {
+  top: 1rem;
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  background: #292929;
+  padding: 0 4px;
+  border-radius: 3px;
+}
+
+.input_parent select option {
+  color: rgb(173, 173, 173);
+  background-color: rgb(41, 40, 40);
+  padding: 0.5rem 0.8rem; /* Padding between options */
+}
+
+/* Remove hover effect on options */
+.input_parent select option:hover {
+  background-color: transparent;
+}
+
+/* Style selected option */
+.input_parent select option:checked {
+  background-color: #00a2bc;
+  color: white;
+}
+
+.inside_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.submit {
+  margin: 2rem 0;
+}
+
+.success_message {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: #4caf50;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: opacity 0.5s ease;
+}
+
+.success_message.show {
+  display: block;
+  opacity: 1;
+}
+
+/* ============ Device max width 1024px ================== */
+@media screen and (max-width: 1024px) {
+  h6 {
+    font-size: 1.01rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  label {
+    font-size: 0.9rem;
+  }
+
+  .container {
+    max-width: var(--container-width-lg);
+    margin: 0 auto;
+  }
+
+  .enroll-form {
+    top: 0rem;
+    /* padding: 4rem 0; */
+    margin-bottom: 0rem;
+  }
+
+  .enroll-form_body {
+    height: 72vh;
+    grid-template-columns: 1fr;
+    border-radius: 1rem;
+  }
+
+  /* ========= left side of enroll container ============== */
+  .left_enroll {
+    display: none;
+  }
+
+  /* ========= right side of enroll container ============== */
+  .right_enroll {
+    padding: 1rem 1.5rem;
+  }
+
+  .right_enroll .inputs_parent .input_parent label {
+    left: 1rem;
+    top: 2.5rem;
+  }
+
+  .btn_primary {
+    font-size: 1rem;
+    padding: 0.75rem 4rem;
+  }
+}
+
+/* ============= Media Query for Tablet Device ================ */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: var(--container-width-md);
+    margin: 0 auto;
+  }
+
+  /* ========= right side of enroll container ============== */
+  .right_enroll .inputs_parent {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .right_enroll .inputs_parentR {
+    gap: 0rem;
+  }
+
+  .inside_grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+/* =========== Responsive for mobile screen ============= */
+@media screen and (max-width: 480px) {
+  label {
+    font-size: 0.85rem;
+  }
+
+  .container {
+    max-width: var(--container-width-sm);
+    margin: 0 auto;
+  }
+
+  .right_enroll .inputs_parent .input_parent label {
+    position: absolute;
+    left: 1rem;
+    top: 2.5rem;
+  }
+
+  .right_enroll .inputs_parent input:focus + label,
+  .right_enroll .inputs_parent input:not(:placeholder-shown) + label {
+    font-size: 0.75rem;
+  }
+}

@@ -1,5 +1,4 @@
 
-**This text is bold.**
 # Home View Description.
 
 The home page of the Cybersecurity E-Commerce Site serves as the central hub for users to explore and access high-quality cybersecurity tools and resources. Here's what it features:
@@ -22,3 +21,8 @@ Login or registration options are conveniently located for seamless account mana
 Secure Design
 The site emphasizes trust and security, ensuring users feel confident while exploring or making purchases.
 ![Cybersecurity E-Commerce Site Screenshot](screencapture-localhost-Cyber-security-Website-main-index-php-2025-01-13-12_43_57.png)
+
+# Login
+![Cybersecurity E-Commerce Site Screenshot](login_system.png)
+#SignUp
+![Cybersecurity E-Commerce Site Screenshot](signUp.png)

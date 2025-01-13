@@ -24,5 +24,14 @@ The site emphasizes trust and security, ensuring users feel confident while expl
 
 # Login
 ![Cybersecurity E-Commerce Site Screenshot](login_system.png)
-#SignUp
+# SignUp
 ![Cybersecurity E-Commerce Site Screenshot](signUp.png)
+# 
+![Cybersecurity E-Commerce Site Screenshot](instructor profile.png)
+![Cybersecurity E-Commerce Site Screenshot](contact_us.png)
+![Cybersecurity E-Commerce Site Screenshot](course_hover.png)
+![Cybersecurity E-Commerce Site Screenshot](course_registration_form.png)
+![Cybersecurity E-Commerce Site Screenshot](course-details.png)
+![Cybersecurity E-Commerce Site Screenshot](course_info.png)
+![Cybersecurity E-Commerce Site Screenshot](contact_us_data.png)
+![Cybersecurity E-Commerce Site Screenshot](Enrolled Student Data.png)

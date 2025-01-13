@@ -1,4 +1,7 @@
-Home View Description
+
+**This text is bold.**
+__Home View Description.__
+
 The home page of the Cybersecurity E-Commerce Site serves as the central hub for users to explore and access high-quality cybersecurity tools and resources. Here's what it features:
 
 Dynamic Hero Section

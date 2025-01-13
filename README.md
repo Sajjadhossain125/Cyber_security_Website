@@ -1,6 +1,6 @@
 
 **This text is bold.**
-# H1 - Biggest Heading__Home View Description.__
+# H1Home View Description.__
 
 The home page of the Cybersecurity E-Commerce Site serves as the central hub for users to explore and access high-quality cybersecurity tools and resources. Here's what it features:
 

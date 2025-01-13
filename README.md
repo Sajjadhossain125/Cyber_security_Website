@@ -78,4 +78,17 @@ The **Cybersecurity E-Commerce Site** serves as a one-stop platform for explorin
 
 ---
 
-## 📂 File Structure
+## 📂 Output
+![Cybersecurity E-Commerce Site Screenshot](screencapture-localhost-Cyber-security-Website-main-index-php-2025-01-13-12_43_57.png)
+
+![Cybersecurity E-Commerce Site Screenshot](login_system.png)
+
+![Cybersecurity E-Commerce Site Screenshot](signUp.png)
+
+![Cybersecurity E-Commerce Site Screenshot](contact_us.png)
+![Cybersecurity E-Commerce Site Screenshot](course_hover.png)
+![Cybersecurity E-Commerce Site Screenshot](course_registration_form.png)
+![Cybersecurity E-Commerce Site Screenshot](course-details.png)
+![Cybersecurity E-Commerce Site Screenshot](course_info.png)
+![Cybersecurity E-Commerce Site Screenshot](contact_us_data.png)
+
